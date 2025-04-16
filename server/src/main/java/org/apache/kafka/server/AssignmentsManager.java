@@ -143,7 +143,7 @@ public final class AssignmentsManager {
     private final KafkaEventQueue eventQueue;
 
     static MetricName metricName(String name) {
-        return KafkaYammerMetrics.getMetricName("org.apache.kafka.server", "AssignmentsManager", name);
+        return KafkaYammerMetrics.getMetricName("kafka.server", "AssignmentsManager", name);
     }
 
     public AssignmentsManager(
